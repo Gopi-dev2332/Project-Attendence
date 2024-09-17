@@ -38,10 +38,10 @@ h1{
         margin: 5px;
         padding: 8px;
         font-size: 15px;
-        margin-left: 0%;
+        margin-left: 1%;
     }
     h1{
-        margin-left: 0%;
+        margin-left: 1%;
     }
 }
 
@@ -94,12 +94,12 @@ h2{
 @media screen and (max-width:400px) {
     #tables{
         
-        margin-left: 10px;
+        margin-left: 1%;
         padding: 1px;
         font-size: 13px;
     }
     h2{
-        margin-left: 0%;
+        margin-left: 1%;
     }
 }
 #tables th{
