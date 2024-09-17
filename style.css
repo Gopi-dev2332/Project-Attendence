@@ -38,10 +38,10 @@ h1{
         margin: 5px;
         padding: 8px;
         font-size: 15px;
-        margin-left: 20px;
+        margin-left: 0%;
     }
     h1{
-        margin-left: 20px;
+        margin-left: 0%;
     }
 }
 
@@ -99,7 +99,7 @@ h2{
         font-size: 13px;
     }
     h2{
-        margin-left: 20px;
+        margin-left: 0%;
     }
 }
 #tables th{
