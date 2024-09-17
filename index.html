@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT TABLE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+    <h1>STUDENT ATTENDANCE</h1>
+    <form id="forms">
+        <label>Name:</label>
+        <input type="text" id="names" ><br>
+
+        <label>Roll no:</label>
+        <input type="text" id="rolls"><br>
+
+        <label>Age:</label>
+        <input type="age" id="ages"><br>
+
+        <label>Gender:</label>
+        <input type="text" id="males"><br>
+  
+        <label>Course:</label>
+        <select  id="option">
+    
+        <option value="python">python</option>
+        <option value="C++">c++</option>
+        <option value="Java">Java</option>
+        <option value="Javascript">Javascript</option>
+          </select><br>
+
+
+
+          <label>E-mail:</label>
+          <input type="email" id="mails"><br>
+
+          <button onclick="add(event)" id="button">Sumbit</button>
+          
+
+    </form>
+</div><br><br>
+
+
+<h2>STUDENT CONFORMATION</h2>
+<table id="tables">
+<tr>
+
+    <th>Name</th>
+    <th>Rollno</th>
+    <th>age</th>
+    <th>Gender</th>
+    <th>courses</th>
+    <th>E-mail</th>
+    <th>Action</th>
+
+</tr>
+
+
+<tr>
+
+    <td>E.gopi</td>
+    <td>24UCS046</td>
+    <td>18</td>
+    <td>Male</td>
+    <td>Javascript</td>
+    <td>24ucs046@muthayammal.in</td>
+    <td><button onclick="deletebook(this)" id="btn">Delete</button></td>
+</tr>
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
