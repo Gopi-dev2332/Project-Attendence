@@ -35,9 +35,9 @@ let template=`
 table.innerHTML+=template;
 
 }
+p
 
-
-
+P
 
 
 function deletebook(button){

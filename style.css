@@ -94,10 +94,10 @@ h2{
 @media screen and (max-width:500px) {
     #tables{
         
-        margin-left: 1px;
+        margin: auto;
         padding: 1px;
         font-size: 13px;
-        margin-right: 1%;
+        
     }
     h2{
         margin-left: 1%;
